@@ -1,0 +1,3180 @@
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  src: url('fonts/RobotoCondensed-Light.eot');
+  src: url('fonts/RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/RobotoCondensed-Light.woff') format('woff'),
+       url('fonts/RobotoCondensed-Light.ttf') format('truetype'),
+       url('fonts/RobotoCondensed-Light.svg#RobotoCondensed-Light') format('svg');
+}
+
+@font-face{
+ font-family: 'RobotoCondensed-Bold';
+  src: url('fonts/RobotoCondensed-Bold.eot');
+  src: url('fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/RobotoCondensed-Bold.woff') format('woff'),
+       url('fonts/RobotoCondensed-Bold.ttf') format('truetype'),
+       url('fonts/RobotoCondensed-Bold.svg#RobotoCondensed-Bold') format('svg');
+}
+@font-face{
+  font-family: 'RobotoCondensed-Regular';
+  src: url('fonts/RobotoCondensed-Regular.eot');
+  src: url('fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/RobotoCondensed-Regular.woff') format('woff'),
+       url('fonts/RobotoCondensed-Regular.ttf') format('truetype'),
+       url('fonts/RobotoCondensed-Regular.svg#RobotoCondensed-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html, body{
+	margin: 0 auto;
+}
+html{
+	font-size: 62.5%;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+	background: url('images/background/bg_brown.png') repeat  center center;
+}
+.mask {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 100;
+background: rgba(0,0,0,0.5);
+
+}
+
+
+
+
+/* shenol_video_page */
+.container-book{
+	margin: 0 auto;
+	background: url('images/video_page/bg_book.png');
+	background-repeat: no-repeat;
+	width: 617px;
+	padding-bottom: 300px;
+}
+.video-logo{
+	text-align: center;
+	padding: 85px 0;
+}
+.video-button{
+	display: block;
+	background-image: url('images/video_page/input.png') ;
+	background-repeat: no-repeat;
+	width:116px;
+	height: 13px;
+	margin: 0 auto;
+}
+.video-content{
+	padding-bottom: 30px;
+}
+.video-panel{
+	background-image: url('images/video_page/bg_video.png') ;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 492px;
+	height: 340px;
+	margin: 0 auto;
+}
+.video-panel-pict-bl{
+	position: absolute;
+	bottom: -5px;
+	left: -5px;
+	width: 49px;
+	height: 48px;
+	background:url('images/video_page/pict_bl.png') no-repeat;
+}
+.video-panel-pict-br{
+	position: absolute;
+	bottom: -5px;
+	right: -5px;
+	width: 49px;
+	height: 48px;
+	background:url('images/video_page/pict_br.png') no-repeat;
+}
+.video-panel-pict-tl{
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 49px;
+	height: 48px;
+	background:url('images/video_page/pict_tl.png') no-repeat;
+}
+.video-panel-pict-tr{
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	width: 49px;
+	height: 48px;
+	background:url('images/video_page/pict_tr.png') no-repeat;
+}
+.wrap-mobile-phone{
+	float: left;
+}
+.wrap-mobile-phone img{
+	display: block;
+	width: 380px;
+	height: 528px;
+}
+.wrap-pen{
+	float: right;
+	
+}
+.wrap-pen img{
+	display: block;
+	width: 206px;
+	height: 429px;
+}
+
+
+
+/* shenol_authorisation */
+.container-registr{
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.authorisation-form{
+	background: url('images/shenol_authorisation/bg_book_authorisation.png');
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	width: 556px;
+	position: relative;
+	padding-top: 25px;
+}
+.login-text{
+	font-family: 'Lobster', cursive;
+	font-size: 3.52rem;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 40px;
+}
+.close{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	cursor: pointer;
+	width: 20px;
+	height: 21px;
+}
+.form-group {
+	position: relative;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.form-control{
+	font-size: 2.43rem;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	border: none;
+	text-align: center;
+	background: url('images/shenol_authorisation/bg_input.png') no-repeat;
+	width: 321px;
+	height: 72px;
+	outline: none;
+}
+input[placeholder]{text-overflow:ellipsis;}
+input::-moz-placeholder{text-overflow:ellipsis;} 
+input:-moz-placeholder {text-overflow:ellipsis;} 
+input:-ms-input-placeholder{text-overflow:ellipsis;}  
+.password-text{
+	font-size: 1.87rem;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.button{
+	font-size: 2.51rem;
+	font-family: 'Lobster', cursive;
+	color: #fff;
+	border: none;
+	text-align: center;
+	background: url('images/shenol_authorisation/bg_input_submit.png') no-repeat;
+	width: 108px;
+	height: 53px;
+	margin-top: 25px;
+}
+
+
+
+/* shenol_index */
+.top{
+	background: url('images/shenol_index/header/bg_header.png') no-repeat;
+	width: 667px;
+	height: 85px;
+	margin: 0 auto;
+}
+.container{
+	margin: 0 auto;
+	background: url('images/shenol_index/bg_iphone_parker.png') no-repeat  center bottom;
+	padding-top: 18px;
+}
+.container-index-book{
+	margin: 0 auto;
+	padding-bottom: 80px;
+	width: 710px;
+	position: relative;
+}
+.spring{
+	position: absolute;
+	background: url('images/shenol_index/spring.png') no-repeat;
+	width: 53px;
+	height: 1013px;
+	top: 130px;
+	left: -15px;
+}
+.index-book-head {
+	background: url('images/shenol_index/bg_book_head.png') no-repeat;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+.index-logo{
+	float:left;
+	height: auto;
+	width: 40%;
+	text-align: center;
+	padding-left: 35px;
+	padding-top: 30px;
+}
+.nav_right{
+	float: right;
+	width: 23%;
+	margin-top: 30px;
+	padding-right: 30px;
+}
+.navy{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;	
+}
+.navy ul{
+	margin: 0 auto;
+	padding: 0;
+}
+.navy li{
+	display: inline-block;
+	list-style: none;
+	width: 19%;
+	box-sizing: border-box;
+	padding: 5px 0px;
+	text-align: center;
+	line-height: 15px;
+	vertical-align: middle;
+}
+.navy li a{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.3rem;
+	color: #4b4b4b;
+	letter-spacing: 0.03em;
+	text-decoration: none;		
+}
+.question_mark:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_index/header/question_mark.png') no-repeat 0 50%; 
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+.firefly:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_index/header/firefly.png') no-repeat ; 
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.smile:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_index/header/smile.png') no-repeat ; 
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.circle:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_index/header/circle.png') no-repeat ; 
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.rss:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_index/header/rss.png') no-repeat ; 
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.menu{
+	display: none;
+	float: right;
+	width: 40%;
+}
+.menu h3 a{
+	background: url('images/shenol_index/bg_input_menu.png') no-repeat ; 
+	width: 104px;
+	height: 41px;
+	margin: 0 15px;
+	border-radius: 5px;
+	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.4);
+	font-family: 'Lobster', cursive;
+	font-size: 1.5rem;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+}
+.menu ul{
+	list-style: none;
+	display: none;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	position: absolute;
+}
+.menu:hover ul{
+ display:block;
+}
+.menu li{
+	display:block;
+}
+.menu li a{ 
+ 	padding:10px 12px 10px 50px;
+ 	background-color:rgba(72,72,72, 0.9);
+ 	display:block;
+ 	background-repeat:no-repeat;
+ 	background-position: 10px 3px;
+	border-bottom: 1px solid #6e6e6e;
+	text-decoration:none;
+	color:#FFF;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:1.3rem;
+}
+.menu li a:hover{
+ background-color:#999;
+}
+.question_mark_menu a{
+	background: url('images/shenol_index/header/question_mark_menu.png') no-repeat; 
+}
+.firefly_menu a{
+	background: url('images/shenol_index/header/firefly_menu.png') no-repeat ;
+}
+.smile_menu a{
+	background: url('images/shenol_index/header/smile_menu.png') no-repeat ; 
+}
+.circle_menu a{
+	background: url('images/shenol_index/header/circle_menu.png') no-repeat ; 	
+}
+.rss_menu a{
+	background: url('images/shenol_index/header/rss_menu.png') no-repeat ; 
+}
+
+.social{
+	float: right;
+	width: 100%;
+	text-align: right;
+	margin-top: 20px;
+}
+.social ul{
+	padding: 0;
+	margin: 0 auto;
+}
+.social li{
+	display: inline-block;
+	margin-right: 2%;
+}
+.language_list{
+	float: right;
+	width: 75%;
+	text-align: right;
+}
+.language_list ul{
+	margin: 0 auto;
+	padding: 0;
+}
+.language_list li{
+	display: inline-block;
+	margin-right: 2%;
+}
+.index-book-body{
+	background: url('images/shenol_index/bg_book_body.png') repeat;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.registration{
+	width: 352px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.registration-button{
+	background: url('images/shenol_index/bg_input_submit_registration.png') no-repeat ; 
+	width: 159px;
+	height: 35px;
+	float: left;
+	margin: 0 15px;
+	border-radius: 5px;
+	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.4);
+	font-family: 'Lobster', cursive;
+	font-size: 1.57rem;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	text-decoration: none;
+}
+.registration-social{
+	float: right;
+	width: 34%;
+	text-align: right;
+	margin: 0 15px;
+}
+.registration-social ul{
+	padding: 0;
+	margin: 0 auto;
+}
+.registration-social li{
+	display: inline-block;
+	margin-right: 5%;
+	border-radius: 5px;
+	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.4);
+	width: 32px;
+	height: 32px;
+}
+.enter{
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.enter a{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.6rem;
+	color: #4b4b4b;
+}
+.clearfix:after{
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.registration-text{
+	width: 612px;
+	margin: 0 auto;
+}
+.registration-text-head{
+	background: url('images/shenol_index/bg_registration_text_head.png') no-repeat;
+	width: 100%;
+	height: 10px;
+}
+.registration-text-body{
+	background: url('images/shenol_index/bg_registration_text_body.png')repeat;
+	width: 100%;
+}
+.registration-text-body p{
+	padding: 15px 20px;
+	box-sizing: border-box;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.6rem;
+	color: #4b4b4b;
+	margin: 0;
+}
+.registration-text-bottom{
+	background: url('images/shenol_index/bg_registration_text_bottom.png') no-repeat;
+	width: 100%;
+	height: 20px;
+}
+.statistics{
+	width: 352px;
+	margin: 0 auto;
+}
+.statistics-text-head{
+	background: url('images/shenol_index/bg_statistics_text_head.png') no-repeat;
+	width: 100%;
+	height: 16px;
+}
+.statistics-text-body{
+	background: url('images/shenol_index/bg_statistics_text_body.png')repeat;
+	width: 100%;
+}
+.statistics-text-bottom{
+	background: url('images/shenol_index/bg_statistics_text_bottom.png')repeat;
+	width: 100%;
+	height: 18px;
+}
+ .statistics p{
+ 	padding: 15px 20px;
+	box-sizing: border-box;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.6rem;
+	color: #4b4b4b;
+	margin:0;
+ }
+.registration-text-small p{
+	margin: 0;
+}
+.comment{
+	background: url('images/shenol_index/bg_note.png') no-repeat;
+	width: 470px;
+	height: 154px;
+	padding: 15px 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.4rem;
+	color: #4b4b4b;
+	position: relative;
+}
+.comment-pict-tl{
+	background: url('images/shenol_index/pict_tl.png') no-repeat;
+	position: absolute;
+	top: -25px;
+	left: -20px;
+	width: 64px;
+	height: 57px;
+}
+.comment-pict-tr{
+	background: url('images/shenol_index/pict_tr.png') no-repeat;
+	position: absolute;
+	top: -22px;
+	right: -20px;
+	width: 60px;
+	height: 60px;
+}
+.commentaut{
+	font-weight: bold;
+	float:right;
+}
+.photo_author{
+	float: left;
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	border: 1px solid #4b4b4b;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 70px;
+	margin-right: 15px;
+}
+.photo_author img{
+	vertical-align: middle;	
+}
+.registration-text-small{
+	width: 612px;
+	margin: 0 auto;
+	padding-top: 10px;
+	
+}
+.index-book-bottom {
+	background: url('images/shenol_index/bg_book_bottom.png') no-repeat;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 45px;
+}
+.recall{
+	float: right;
+	margin-right: 40px;
+}
+
+
+
+/* shenol_registration_warning */
+.registration-letter-text{
+	background: url('images/shenol_registration_warning/sheets.png') no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+	width: 450px;
+	height: 235px;
+	
+}
+.registration-letter-post{
+	box-sizing: border-box;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:2.15rem;
+	color: #000;
+	text-align: center;
+	padding-top: 45px;
+	display: block;
+	text-transform: uppercase;
+}
+.registration-letter-text p{
+	box-sizing: border-box;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:2.05rem;
+	color: #000;
+	margin: 0 auto;
+	padding-top: 35px;
+	text-align: center;
+}
+.button_reg{
+	font-size: 3.86rem;
+	font-family: 'Lobster', cursive;
+	color: #fff;
+	border: none;
+	text-align: center;
+	background: url('images/shenol_authorisation/bg_input_submit.png') no-repeat;
+	width: 164px;
+	height: 81px;
+	margin-bottom: 25px;
+}
+/* shenol_slideshow */
+.book-slidershow{
+	background: url('images/shenol_slideshow/bg_book_slideshow.png');
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	width: 564px;
+	position: relative;
+	padding-top: 15px;
+}
+.slidershow-sheets{
+	background: url('images/shenol_slideshow/sheets.png') no-repeat;
+	margin: 0 auto;
+	width: 545px;
+	height: 522px;
+}
+.slidershow-slide{
+	padding: 25px 20px 5px 20px;
+}
+.slidershow-slide-caption p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.7rem;
+	color: #313131;
+	margin: 0;
+}
+.slidershow-slide-caption{
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.slidershow-registration{
+ 	margin: 0 auto;
+ 	width: 90%;
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
+}
+.slidershow-registration-social{
+	float: right;
+  	width: 30%;
+  	text-align: right;
+  	margin: 0 15px;
+}
+.slidershow-registration-social ul{
+	padding: 0;
+	margin: 0 auto;
+}
+.slidershow-registration-social li{
+	display: inline-block;
+	margin-right: 5%;
+	border-radius: 5px;
+	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.4);
+	width: 41px;
+	height: 41px;
+}
+.slidershow-arrows{
+	float: left;
+	width: 20%;
+	margin-left: 20px;
+}
+.left{
+	background: url('images/shenol_slideshow/arrow_left.png') no-repeat;
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	margin-right: 20px;
+}
+.right{
+	background: url('images/shenol_slideshow/arrow_right.png') no-repeat;
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+}
+
+
+
+
+/* shenol_profile */
+.notebook-profile{
+	width: 1180px;
+	margin: 0 auto;
+}
+.left-side-profile{
+	width: 912px;
+	float: left;
+}
+.top-profile-left{
+	background: url('images/shenol_profile/header/bg_header.png') no-repeat;
+	width: 877px;
+	height: 86px;
+	margin: 0 auto;
+}
+.container-profile-book{
+	margin: 0 auto;
+	padding-bottom: 80px;
+	width: 912px;
+	position: relative;
+}
+.spring-profile{
+	position: absolute;
+	background: url('images/shenol_profile/spring.png') no-repeat;
+	width: 48px;
+	height: 1744px;
+	top: 120px;
+	left: 300px;
+}
+.profile-book-head {
+	background: url('images/shenol_profile/bg_book_head.png') no-repeat;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 25px;
+	margin-top: -5px;
+}
+.profile-book-body{
+	background: url('images/shenol_profile/bg_book_body.png') repeat;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.profile-book-bottom{
+	background: url('images/shenol_profile/bg_book_bottom.png') repeat;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 35px;
+}
+.profile-logo{
+	float:left;
+	height: auto;
+	width: 35%;
+	text-align: center;
+	padding-top: 30px;
+}
+.title-profile{
+	float: right;
+	width: 549px;
+	background-color:#fff;
+	text-align: center;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.9rem;
+	color: #414141;
+	border-bottom: 1px solid #aeaeae;
+	border-top: 1px solid #aeaeae;
+	margin-top: 40px;
+	margin-right: 36px;
+	line-height: 45px;
+}
+.navy-profile{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;	
+}
+.navy-profile ul{
+	margin: 0 auto;
+	padding: 0;
+}
+.navy-profile li{
+	display: inline-block;
+	list-style: none;
+	width: 24%;
+	box-sizing: border-box;
+	padding: 5px 0px;
+	text-align: center;
+	line-height: 15px;
+	vertical-align: middle;
+	position: relative;	
+}
+.navy-profile li a{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.6rem;
+	color: #4b4b4b;
+	letter-spacing: 0.03em;
+	text-decoration: none;	
+}
+.offer:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/header/offer.png') no-repeat left bottom; 
+	width: 52px;
+	height: 35px;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+.badge{
+	display: block;
+  	position: absolute;
+  	top: 0px;
+  	left: 65px;
+  	line-height: 20px;
+  	width: 20px;
+  	height: 20px;
+ 	font-family:  RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 	font-size: 1.4rem;
+  	color: white;
+  	text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+  	border: 1px solid;
+  	border-radius: 10px;
+  	background-color: #a70000;
+  	text-align: center;
+}
+.badge-red{
+	display: block;
+  	position: absolute;
+  	top: 5px;
+  	left: 38px;
+  	line-height: 20px;
+  	width: 20px;
+  	height: 20px;
+ 	font-family:  RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 	font-size: 1.4rem;
+  	color: white;
+  	text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+  	border: 1px solid;
+  	border-radius: 10px;
+  	background-color: #a70000;
+  	text-align: center;
+}
+.firefly-profile:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/header/firefly.png') no-repeat ; 
+	width: 34px;
+	height: 34px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.gallery_shenol:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/header/photo_frame.png') no-repeat ; 
+	width: 34px;
+	height: 34px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.gear:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/header/icon_gear.png') no-repeat ; 
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.side-bar{
+	float:left;
+	height: auto;
+	width: 290px;
+	padding-left: 30px;
+}
+.main-window{
+	float: right;
+	width: 549px;
+	margin-right: 36px;
+}
+.side-bar-list{
+	margin: 0 auto;
+	padding: 0;
+}
+.side-bar-list>li{
+	display:block;
+	list-style: none;
+	box-sizing: border-box;
+	text-align: left;
+	border-bottom: 1px solid #aeaeae;
+	padding-left: 20px;
+	position: relative;
+}
+.side-bar li a{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.6rem;
+	color: #4b4b4b;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+	line-height: 48px;		
+}
+.side-bar li ul{
+	list-style: none;
+	padding: 0;
+}
+.side-bar li li{
+	border-top: 1px solid #aeaeae;
+	padding-left: 30px;
+}
+.side-bar li li a{
+	line-height: 50px;	
+}
+.money:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/money.png') no-repeat left bottom; 
+	width: 44px;
+	height: 32px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.epay:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/epay.png') no-repeat left bottom; 
+	width: 40px;
+	height: 33px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.handgrip:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/handgrip.png') no-repeat left bottom; 
+	width: 36px;
+	height: 37px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.webinar:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/webinar.png') no-repeat left bottom; 
+	width: 37px;
+	height: 37px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.book:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/book.png') no-repeat left bottom; 
+	width: 35px;
+	height: 33px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.coach:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/coach.png') no-repeat left bottom; 
+	width: 26px;
+	height: 39px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.exclamation:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/exclamation.png') no-repeat left bottom; 
+	width: 34px;
+	height: 29px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.read_message:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/read_message.png') no-repeat left bottom; 
+	width: 33px;
+	height: 33px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.contact_profile:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/contact_profile.png') no-repeat left bottom; 
+	width: 25px;
+	height: 34px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.gallery_profile:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/gallery_profile.png') no-repeat left bottom; 
+	width: 34px;
+	height: 33px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.team:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/team.png') no-repeat left bottom; 
+	width: 34px;
+	height: 32px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.interest_groups:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/interest_groups.png') no-repeat left bottom; 
+	width: 32px;
+	height: 31px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.achievement:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/achievement.png') no-repeat left bottom; 
+	width: 31px;
+	height: 31px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.gifts:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/gifts.png') no-repeat left bottom; 
+	width: 29px;
+	height: 31px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.wifi:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/wifi.png') no-repeat left bottom; 
+	width: 29px;
+	height: 26px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.video_clip:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/video_clip.png') no-repeat left bottom; 
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.corporative:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/corporative.png') no-repeat left bottom; 
+	width: 31px;
+	height: 31px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.charity:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/charity.png') no-repeat left bottom; 
+	width: 27px;
+	height: 26px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.admin:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/admin.png') no-repeat left bottom; 
+	width: 29px;
+	height: 26px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.bubble:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_profile/bubble.png') no-repeat left bottom; 
+	width: 36px;
+	height: 32px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.photo-profile{
+	background: url('images/shenol_profile/bg_photo_white.png') no-repeat; 
+	width: 163px;
+	height: 181px;
+	float: left;
+	margin-left: 35px;
+	margin-top: 3px;
+	text-align: center;
+	line-height: 181px;
+	position: relative;
+}
+.photo-profile img{
+	vertical-align: middle;
+}
+.info-top{
+	float: right;
+	width: 326px;
+	margin-right: 25px;
+}
+.info-top-head{
+	background: url('images/shenol_profile/bg_info_top_head.png') no-repeat;
+  	width: 100%;
+  	height: 20px;
+}
+.info-top-body{
+	background: url('images/shenol_profile/bg_info_top_body.png') repeat;
+  	width: 95%;
+  	padding-left:5%;
+}
+.info-top-bottom{
+	background: url('images/shenol_profile/bg_info_top_bottom.png') no-repeat;
+  	width: 100%;
+  	height: 20px;
+}
+.info-top-body p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.4rem;
+	color: #4f4f4f;
+	margin: 0;
+	line-height: 30px;
+}
+.info-top-body p:last-child{
+	line-height: 40px;
+}
+.info-top-body span{
+	border-bottom: 1px  solid  #4f4f4f;
+	display: inline-block;
+}
+.space{
+	margin-left: 30px;
+}
+.main-window-text p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:1.4rem;
+	color: #4f4f4f;
+	padding:15px 40px;
+	margin: 0;
+}
+.main-window-text{
+	width: 100%;
+}
+.title-news-profile{
+	width: 549px;
+	background-color: #fff;
+	text-align: center;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1.9rem;
+	color: #414141;
+	border-bottom: 1px solid #aeaeae;
+	border-top: 1px solid #aeaeae;
+	margin-top: 40px;
+	line-height: 45px;
+}
+.container-post-news-profile{
+	padding-top: 20px;
+}
+.post-news-profile{
+	width: 244px;
+	text-align: center;
+	float: left;
+	margin-left: 3.5%;
+}
+.post-news-profile p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1.2rem;
+	color: #414141;
+	margin: 0;
+	padding: 5px 10px;
+}
+.post-news-profile-head{
+	background: url('images/shenol_profile/bg_post_news_head.png') no-repeat;
+  	width: 100%;
+  	height: 15px;
+}
+.post-news-profile-body{
+	background: url('images/shenol_profile/bg_post_news_body.png') repeat;
+  	width: 100%;
+}
+.post-news-profile-bottom{
+	background: url('images/shenol_profile/bg_post_news_bottom.png') no-repeat;
+  	width: 100%;
+  	height: 20px;
+}
+.right-side-profile{
+	width: 265px;
+	float: right;
+}
+.top-profile-right{
+	margin: 0 auto;
+}
+.search-btn{
+	position: relative;
+	width: 235px;
+	margin-top: 30px;
+}
+input[type="search"] {
+	-webkit-appearance: textfield;
+	background: url('images/shenol_profile/bg_input_search.png') no-repeat;
+	width: 233px;
+	height: 55px;
+	border: none;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1.75rem;
+	color: #414141;
+	 outline: none;
+	 padding: 5px 0 4px 30px;
+}
+input[type="button"]{
+	background: url('images/shenol_profile/magnifier.png')no-repeat 50% 50%;
+  	width: 28px;
+  	height: 24px;
+  	position: absolute;
+  	border: none;
+  	top: 15px;
+  	right: 15px;
+}
+.language-list-profile{
+	float: left;
+	width: 75%;
+	margin-top: 15px;
+}
+.language-list-profile ul{
+	margin: 0 auto;
+	padding: 0;
+}
+.language-list-profile li{
+	display: inline-block;
+	margin-right: 2%;
+}
+.social-profile{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+.social-profile ul{
+	padding: 0;
+	margin: 0 auto;
+}
+.social-profile li{
+	display: inline-block;
+	margin-right: 4%;
+}
+.motivation-profile{
+	background: url('images/shenol_profile/bg_sheets.png') no-repeat;
+	width: 295px;
+	height: 838px;
+	margin-left: -20px;
+	margin-top: 10px;
+	padding-top: 25px;
+}
+.title-motivation-profile{
+	width: 293px;
+  	background-color: #fff;
+  	text-align: center;
+  	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.9rem;
+  	color: #414141;
+  	border-bottom: 1px solid #aeaeae;
+  	border-top: 1px solid #aeaeae;
+  	line-height: 45px;
+}
+.checklist{
+	margin: 0 auto;
+}
+.checklist img{
+	float: left;
+	padding-left: 40px;
+}
+.motivation-profile .checklist h3{
+	text-align: left;
+}
+.plan{
+	margin: 0 auto;
+}
+.plan img{
+	float: left;
+	padding-left: 40px;
+}
+.motivation-profile .plan h3{
+	text-align: left;
+	line-height: 50px;
+}
+.motivation-profile h3{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.6rem;
+  	color: #414141;
+  	font-weight: bold;
+  	text-align: center;
+  	margin-top: 30px;
+  	margin-bottom: 10px;
+}
+
+.motivation-profile p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.4rem;
+  	color: #414141;
+  	text-align: center;
+  	margin: 3px;
+  	line-height: 20px;
+}
+.form-text{
+	padding: 5px 10px;
+	text-align: center;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.8rem;
+  	color: #414141;
+  	border-radius: 5px;
+  	border: 1px solid #aeaeae;
+}
+.image-motivation-profile{
+	text-align: center;
+}
+input[type="checkbox"] {
+	width: 20px;
+	border: 2px solid #3f3f3f;
+	box-shadow: none;
+	margin: 0 5px;
+}
+.planning ul{
+	padding: 0;
+	margin: 0 auto;
+}
+.form-group-motivation{
+	position: relative;
+  	text-align: center;
+}
+.planning li{
+  	display: block;
+  	list-style: none;
+  	box-sizing: border-box;
+  	text-align: left;
+  	padding: 0 10px;
+}
+.planning a{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.4rem;
+  	color: #414141;
+  	
+}
+.container-profile{
+	margin: 0 auto;
+  	background: url('images/shenol_profile/bg_iphone_parker.png') no-repeat center bottom;
+  	padding-top: 18px;
+}
+
+/* shenol_virtual_coach */
+.title-virtual {
+  float: right;
+  width: 549px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 3.88rem;
+  color: #1f1f1f;
+  border-bottom: 1px solid #aeaeae;
+  border-top: 1px solid #aeaeae;
+  margin-top: 40px;
+  margin-right: 36px;
+  line-height: 45px;
+
+}
+.coach-menu{
+	width: 521px;
+	margin: 0 auto;
+}
+.coach-menu-head, .guide-menu-head {
+	background: url('images/shenol_virtual_coach/coach_menu_head.png') no-repeat;
+  	width: 100%;
+  	height: 19px;
+}
+.coach-menu-body, .guide-menu-body{
+	background: url('images/shenol_virtual_coach/coach_menu_body.png') repeat;
+  	width: 100%;
+  	position: relative;
+  	text-align: center;
+}
+.coach-menu-body-task {
+	background: url('images/shenol_virtual_coach/coach_menu_body.png') repeat;
+  	width: 100%;
+  	position: relative;
+}
+.coach-menu-bottom, .guide-menu-bottom{
+	background: url('images/shenol_virtual_coach/coach_menu_bottom.png') no-repeat;
+  	width: 100%;
+  	height: 19px;
+}
+.coach-menu-product-top{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+.coach-menu-product-top p, .coach-menu-product-bottom p{
+	font-family: 'Lobster', cursive;
+  	font-size: 1.8rem;
+  	color: #1f1f1f;
+}
+.coach-menu-product-bottom{
+	width: 48%;
+	float: left;
+	text-align: center;
+	height: 165px;
+}
+.coach-menu-task{
+	padding: 10px 30px;
+}
+.coach-menu-task p, .pop-up p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.6rem;
+  	color: #414141;
+  	margin: 0;
+  	padding: 5px 10px;
+}
+.coach-menu-task p:before{
+	content: '';
+	display: inline-block;
+	background: url('images/shenol_virtual_coach/coin.png') no-repeat left bottom; 
+	width: 30px;
+	height: 31px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.pop-up{
+	position: absolute;
+	background-color: #fff;
+	border-radius: 5px;
+  	border: 2px solid #acacac;
+  	top: 130px;
+  	left: 50%;
+  	margin-left: -145px;
+  	padding: 15px 10px;
+  	text-align: center;
+}
+.spring-virtual{
+	position: absolute;
+  	background: url('images/shenol_virtual_coach/spring.png') no-repeat;
+  	width: 48px;
+  	height: 1013px;
+  	top: 120px;
+  	left: 300px;
+}
+
+
+
+/* shenol_gallery */
+.album {
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.9rem;
+  	color: #1f1f1f;
+  	text-align: center;
+  	margin: 0;
+  	margin-bottom: 10px;
+}
+.gallery-photos{
+	text-align: center;
+}
+.gallery-photos-items{
+	width: 150px;
+	display: inline-block;
+	margin:15px 10px;
+}
+.gallery-photos-items p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.3rem;
+  	color: #1f1f1f;
+  	text-align: center;
+}
+.gallery-photos-image{
+	background: url('images/shenol_gallery/gallery_photos_image.png') no-repeat;
+	width:148px;
+	height: 134px;
+	text-align: center;
+	line-height: 134px;
+}
+.gallery-photos-image img{
+	vertical-align: middle;
+}
+.container-gallery{
+	margin: 0 auto;
+  	background: url('images/shenol_gallery/bg_iphone_parker.png') no-repeat center bottom;
+  	padding-top: 18px;
+
+}
+
+
+/* shenol_vc_tutorial */
+.tutorial{
+	background: url('images/shenol_vc_tutorial/bg_book_tutorial.png');
+  	margin: 0 auto;
+  	background-repeat: no-repeat;
+  	width: 1180px;
+  	position: relative;
+  	padding-top: 25px;
+}
+.tutorial-title{
+	font-family: 'Lobster', cursive;
+  	font-size: 3.87rem;
+  	color: #fff;
+  	text-align: center;
+  	margin: 0;
+  	padding-bottom: 40px;
+}
+.tutorial-list{
+	background: url('images/shenol_vc_tutorial/sheets.png') no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+	width: 1134px;
+	height: 627px;
+}
+
+/* shenol_learning_material */
+.learning-menu{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.learning-menu-business{
+	background: url('images/shenol_learning_material/business.png') no-repeat;
+	width: 95px;
+	height: 58px;
+	display: inline-block;
+	text-align: center;
+}
+.learning-menu-business a, .learning-menu-personal a, .learning-menu-communicability a {
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.6rem;
+  	color: #1f1f1f;
+  	text-decoration: none;
+  	line-height: 58px;
+
+}
+.learning-menu-personal{
+	background: url('images/shenol_learning_material/personal.png') no-repeat;
+	width: 141px;
+	height: 60px;
+	display: inline-block;
+	text-align: center;
+}
+.learning-menu-communicability{
+	background: url('images/shenol_learning_material/communicability.png') no-repeat;
+	width: 210px;
+	height: 57px;
+	display: inline-block;
+	text-align: center;
+}
+.learning-button{
+	background: url('images/shenol_learning_material/bg_input_learning.png') no-repeat;
+ 	width: 114px;
+  	height: 40px;
+  	margin: 0 auto;
+  	border-radius: 5px;
+  	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.3);
+  	text-align: center;
+  	margin-bottom: 20px;
+}
+.learning-button a{
+  	font-family: 'Lobster', cursive;
+  	font-size: 1.9rem;
+  	color: #fff;
+  	line-height: 40px;
+  	text-decoration: none;
+}
+.learning-video-gallery{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.learning-video{
+	width: 165px;
+	display: inline-block;
+}
+.learning-video-head{
+	background: url('images/shenol_learning_material/learning_video_head.png') no-repeat;
+  	width: 100%;
+  	height: 16px;
+}
+.learning-video-body{
+	background: url('images/shenol_learning_material/learning_video_body.png') repeat;
+  	width: 100%;
+  	
+}
+.learning-video-body p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.3rem;
+  	color: #1f1f1f;
+  	text-align: center;
+  	margin: 0;
+  	padding: 5px 5px;
+}
+.learning-video-bottom{
+	background: url('images/shenol_learning_material/learning_video_bottom.png') no-repeat;
+  	width: 100%;
+  	height: 16px;
+}
+.learning-audio-gallery{
+	width: 510px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.learning-audio-gallery ul{
+	margin: 0 auto;
+	padding: 0;
+}
+.learning-audio-gallery li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.learning-audio{
+	width: 265px;
+	float: left;
+}
+.learning-audio-time{
+	width: 96px;
+	float: left;
+}
+.learning-audio-head{
+	background: url('images/shenol_learning_material/learning_audio_head.png') no-repeat;
+  	width: 100%;
+  	height: 15px;
+}
+.learning-audio-time-head{
+	background: url('images/shenol_learning_material/learning_audio_time_head.png') no-repeat;
+  	width: 100%;
+  	height: 15px;
+}
+.learning-audio-body{
+	background: url('images/shenol_learning_material/learning_audio_body.png') repeat;
+  	width: 100%;
+}
+.learning-audio-time-body{
+	background: url('images/shenol_learning_material/learning_audio_time_body.png') repeat;
+  	width: 100%;
+}
+.learning-audio-body p, .learning-audio-time-body p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.56rem;
+  	color: #1f1f1f;
+  	margin: 0;
+  	text-align: center;
+}
+.learning-audio-bottom{
+	background: url('images/shenol_learning_material/learning_audio_bottom.png') no-repeat;
+  	width: 100%;
+  	height: 15px;
+}
+.learning-audio-time-bottom{
+	background: url('images/shenol_learning_material/learning_audio_time_bottom.png') no-repeat;
+  	width: 100%;
+  	height: 15px;
+}
+.learning-audio-play{
+	background: url('images/shenol_learning_material/bg_input_learning_play.png') no-repeat;
+	width: 37px;
+	height: 35px;
+	border-radius: 5px;
+ 	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.3);
+ 	float: left;
+ 	margin-left: 2%;
+ 	margin-top: 10px;
+}
+
+.social-learning{
+	float: left;
+  	width: 85px;
+  	margin-left: 3%;
+  	margin-top: 15px;
+}
+.social-learning ul{
+	padding: 0;
+	margin: 0 auto;
+}
+.social-learning li{
+	display: inline-block;
+	margin-right: 3%;
+}
+.learning-button-library{
+	background: url('images/shenol_learning_material/bg_input_learning_library.png') no-repeat;
+  	width: 151px;
+  	height: 40px;
+  	margin: 0 auto;
+  	border-radius: 5px;
+  	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.3);
+  	text-align: center;
+  	margin-bottom: 20px;
+}
+.learning-button-library a{
+	font-family: 'Lobster', cursive;
+	font-size: 1.9rem;
+	color: #fff;
+	line-height: 40px;
+	text-decoration: none;
+}
+.learning-library-gallery{
+	width: 510px;
+ 	margin: 0 auto;
+  	margin-bottom: 40px;
+}
+.learning-library-gallery ul{
+	margin: 0 auto;
+	padding: 0;
+}
+.learning-library-gallery li{
+	list-style: none;
+  	margin-bottom: 10px;
+}
+.learning-library{
+	width: 377px;
+	float: left;
+}
+.learning-library-head{
+	background: url('images/shenol_learning_material/learning_library_head.png') no-repeat;
+  	width: 100%;
+  	height:15px;
+}
+.learning-library-body{
+	background: url('images/shenol_learning_material/learning_library_body.png') repeat;
+  	width: 100%;
+}
+.learning-library-body p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.56rem;
+  	color: #1f1f1f;
+  	margin: 0;
+  	text-align: center;
+}
+.learning-library-bottom{
+	background: url('images/shenol_learning_material/learning_library_bottom.png') no-repeat;
+  	width: 100%;
+  	height: 15px;
+}
+.learning-library-play{
+	background: url('images/shenol_learning_material/bg_input_learning_open.png') no-repeat;
+  	width: 97px;
+  	height: 35px;
+  	margin: 0 auto;
+  	border-radius: 5px;
+  	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.3);
+  	text-align: center;
+  	float: left;
+  	margin-left: 4%;
+  	margin-top: 7px;
+}
+.learning-library-play a{
+	font-family: 'Lobster', cursive;
+  	font-size: 1.4rem;
+  	color: #fff;
+  	line-height: 35px;
+  	text-decoration: none;
+}
+
+/* shenol_guide */
+.guide-menu-body p{
+	margin: 0;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 1.6rem;
+  	color: #4b4b4b;
+  	padding: 5px 25px;
+  	text-align: left;
+}
+.image-guide{
+	float: left;
+	margin: 5px 10px 5px 25px;
+}
+.title-motivation-guide{
+	width: 293px;
+	background-color: #fff;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 2.8rem;
+	color: #1f1f1f;
+	border-bottom: 1px solid #aeaeae;
+	border-top: 1px solid #aeaeae;
+	line-height: 45px;
+}
+.guide-list{
+	width: 260px;
+	margin: 0 auto;
+	list-style-image: url('images/shenol_guide/bullet.png');
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 0;
+}
+.guide-list li{
+	padding: 10px;
+}
+.guide-list li a{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 2.0rem;
+  	color: #1f1f1f;
+  	text-decoration: none;
+}
+
+
+/* shenol_webinars_archive */
+.webinars-menu{
+	margin: 0 auto;
+    margin-bottom: 30px;
+}
+.webinars-dates{
+	background: url('images/shenol_webinars_archive/webinars_dates.png') no-repeat;
+  	width: 232px;
+  	height: 49px;
+  	display: inline-block;
+  	text-align: center;
+  	margin-left: 30px;
+}
+.webinars-learning{
+	background: url('images/shenol_webinars_archive/webinars_learning.png') no-repeat;
+  	width: 124px;
+  	height: 49px;
+  	display: inline-block;
+  	text-align: center;
+  	margin-left: 20px;
+}	
+.webinars-archive{
+	background: url('images/shenol_webinars_archive/webinars_archive.png') no-repeat;
+  	width: 87px;
+  	height: 49px;
+  	display: inline-block;
+  	text-align: center;
+  	margin-left: 20px;
+}
+.webinars-dates a, .webinars-learning a, .webinars-archive a{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 	font-size: 1.6rem;
+  	color: #1f1f1f;
+  	text-decoration: none;
+  	line-height: 49px;
+}
+.webinars-author{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 	font-size: 1.3rem;
+  	color: #1f1f1f;
+  	padding-left: 17px;
+}
+.webinars-video-play{
+	background: url('images/shenol_webinars_archive/bg_input_webinars_play.png') no-repeat;
+	width: 129px;
+	height: 35px;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.3);
+	text-align: center;
+	float: right;
+	margin-right: 4%;
+	margin-top: 17px;
+}
+.webinars-video-play a{
+	font-family: 'Lobster', cursive;
+	font-size: 1.53rem;
+	color: #fff;
+	line-height: 35px;
+	text-decoration: none;
+}
+
+
+/* shenol_webinars_dates */
+.webinars-join{
+	background: url('images/shenol_webinars_dates/bg_input_webinars_join.png') no-repeat;
+	width: 152px;
+	height: 35px;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.3);
+	text-align: center;
+	float: right;
+	margin-top: 17px;	
+}
+.webinars-join a{
+	font-family: 'Lobster', cursive;
+	font-size: 1.53rem;
+	color: #fff;
+	line-height: 35px;
+	text-decoration: none;
+}
+
+/* shenol_webinars_dates */
+.music{
+	background: url('images/shenol_music/bg_book_music.png');
+  	margin: 0 auto;
+  	background-repeat: no-repeat;
+  	width: 830px;
+  	position: relative;
+  	padding-top: 25px;
+}
+.music-title{
+	font-family: 'Lobster', cursive;
+  	font-size: 4.47rem;
+  	color: #fff;
+  	text-align: center;
+  	margin: 0;
+  	padding-bottom: 20px;
+}
+.music-sheets{
+	background: url('images/shenol_music/sheets.png') no-repeat;
+  	margin: 0 auto;
+  	width: 787px;
+  	height: 622px;
+  	padding-top: 70px;
+
+}
+.music-gallery{
+	width: 640px;
+	height: 420px;
+  	margin: 0 auto;
+  	margin-bottom: 40px;
+  	overflow: scroll;
+}
+.music-gallery li{
+	list-style: none;
+  	margin-bottom: 10px;
+}
+.music-button{
+	background: url('images/shenol_music/bg_input_music.png') no-repeat;
+  	width: 203px;
+  	height: 42px;
+  	margin: 0 auto;
+  	border-radius: 5px;
+  	box-shadow: 0 0 0 3px rgba(40, 40, 40, 0.3);
+  	text-align: center;
+  	margin-bottom: 20px;
+}
+.music-button a{
+	font-family: 'Lobster', cursive;
+  	font-size: 1.9rem;
+  	color: #fff;
+  	line-height: 42px;
+  	text-decoration: none;
+}
+
+/* shenol_team */
+.team-form-control{
+	font-size: 1.4rem;
+  	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	border: none;
+  	text-align: center;
+  	background: url('images/shenol_team/bg_input.png') no-repeat;
+  	width: 221px;
+  	height: 59px;
+  	outline: none;
+}
+.team-button{
+	font-size: 1.91rem;
+  	font-family: 'Lobster', cursive;
+  	color: #fff;
+ 	border: none;
+ 	text-align: center;
+  	background: url('images/shenol_team/bg_input_submit.png') no-repeat;
+  	width: 106px;
+  	height: 55px;
+}
+.team-gallery{
+	margin: 0 auto;
+	text-align: center;
+}
+.team-gallery-top{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.team-gallery-intem{
+	width: 95px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+}
+.team-gallery-pyramid-intem, .team-gallery-pyramid-intem-bottom{
+	width: 95px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 30px;
+	position: relative;
+}
+.team-gallery-pyramid{
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.team-gallery-pyramid-bottom{
+	margin: 80px auto;
+
+}
+.team-gallery-intem p, .team-gallery-pyramid p{
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 	font-size: 1.7rem;
+  	color: #1f1f1f;
+  	padding: 5px 10px;
+  	margin: 0;
+}
+.round{
+	border-radius: 100px;
+	box-shadow: 0 0 0 2px #979797, 0 0 13px #333;
+}
+.coronal{
+	position: absolute;
+	top: -10px;
+	left: -15px;
+	background: url("images/shenol_team/coronal.png") no-repeat;
+	width: 125px;
+	height: 114px;
+}
+.crown{
+	position: absolute;
+	top: -28px;
+	left: 12px;
+	background: url("images/shenol_team/crown.png") no-repeat;
+	width: 71px;
+	height: 36px;
+}
+.team-gallery-pyramid-top{
+	width: 95px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+}
+.team-gallery-pyramid-top:before{
+	content:"";
+	position:absolute;
+	top: 125px;
+	left: -80px;
+	border-top:2px solid #979797;
+  	width:95px;
+  	transform: rotate(-45deg);
+  	transform-origin: 0% 0%;
+}
+.team-gallery-pyramid-intem:after{
+	content:"";
+	position:absolute;
+	bottom: 0;
+	left:50px;
+	border-top: 2px solid #979797;
+  	width:65px;
+  	transform: rotate(90deg);
+  	transform-origin: 0% 0%;
+}
+.team-gallery-pyramid-top:after{
+	content:"";
+	position:absolute;
+	top: 55px;
+	right: -110px;
+	border-top:2px solid #979797;
+  	width:95px;
+  	transform: rotate(45deg);
+  	transform-origin: 0% 0%;
+}
+.team-gallery-pyramid-middle{
+	margin: 0 auto;
+	position: relative;
+}
+.team-gallery-intem-left{
+	float: left;
+	width: 95px;
+	text-align: center;
+	margin: 0 50px;
+	
+}
+.team-gallery-intem-right{
+	float: right;
+	width: 95px;
+	text-align: center;
+	margin: 0 50px;
+}
+.diagonal-left{
+	position: absolute;
+	top: 10px;
+	left: 225px;
+	width: 28px;
+	height: 114px;
+	background: url("images/shenol_team/diagonal_left.png") no-repeat;
+
+}
+.diagonal-right{
+	position: absolute;
+	top:10px;
+	left: 300px;
+	width: 28px;
+	height: 114px;
+	background: url("images/shenol_team/diagonal_right.png") no-repeat;
+}
+
+/* shenol_orginizer */
+.calendar-book{
+	background: url("images/shenol_orginizer/bg_book_orginizer.png") no-repeat;
+	width: 392px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.calendar-month  {
+	font-size: 2.45rem;
+  	font-family: 'Lobster', cursive;
+  	color: #fff;
+  	text-align: center;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+}
+.calendar-prev{
+	float: left;
+	padding-left: 105px;
+	padding-top: 5px;
+}
+.calendar-prev a{
+	background: url("images/shenol_orginizer/arrow_left.png") no-repeat ;
+	width: 26px;
+	height: 26px;
+	display: block;
+}
+.calendar-next{
+	float: right;
+	padding-right: 105px;
+	padding-top: 5px;
+}
+.calendar-next a{
+	background: url("images/shenol_orginizer/arrow_right.png") no-repeat ;
+	width: 27px;
+	height: 26px;
+	display: block;
+}
+.calendar{
+	width: 315px;
+	margin: 0 auto;
+	background: #f6f6f6;
+	border: 1px solid #bcbcbc;
+	padding: 5px;
+	font-size: 1.65rem;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.calendar table{
+	border-collapse: collapse;
+}
+.calendar td {
+	width: 41px;
+	height: 26px;
+	text-align: center;
+	vertical-align: middle;
+	color: #6e6e6e;
+	border: 2px solid #bcbcbc;	
+}
+.calendar th{
+	width: 40px;
+	height: 26px;
+	text-align: center;
+	vertical-align: middle;
+	color: #464646;
+	font-weight: bold;
+}
+.notebook{
+	width: 500px;
+	margin: 0 auto;
+	font-size: 1.4rem;
+	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.notebook table{
+	border-collapse: collapse;
+}
+.notebook td{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	color: #6e6e6e;
+	border: 1px solid #bcbcbc;
+}
+.notebook td:first-child{
+	width: 45px;
+	height: 50px;
+}
+.notebook p{
+	font-size: 2.25rem;
+  	font-family: 'Lobster', cursive;
+  	color: #000;
+  	margin-left: 20px;
+}
+
+
+
+/* shenol_profile_details */
+.form-profile{
+	float: right;
+  	width: 326px;
+ 	margin-right: 25px;
+ 	padding-bottom: 35px;
+}
+.form-group-profile{
+	position: relative;
+  	padding-bottom: 5px;
+  	text-align: center;
+}
+.form-profile-control{
+	font-size: 1.5rem;
+  	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	text-align: center;
+  	outline: none;
+  	width: 90%;
+  	border-radius: 10px;
+  	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+  	padding: 5px;
+  	border: 1px solid #858585;
+  	line-height: 25px;
+  	word-wrap: break-word;
+}
+.fireflies{
+	font-size: 1.5rem;
+}
+.form-profile-control-text{
+	font-size: 1.5rem;
+  	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	text-align: center;
+  	color: #777;
+}
+select{
+	color: #999;
+	border-radius: 5px;
+	width: 305px;
+	height: 37px;
+	font-size: 1.5rem;
+  	font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	border: 1px solid #858585;
+  	background-color: #fff;
+}
+.change-photo a{
+	background: url("images/shenol_profile_details/change.png") no-repeat;
+	width: 148px;
+	height: 48px;
+	display: block;
+}
+.change-photo{
+	position: absolute;
+	top: 100px;
+	left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shenol_mobile */
+
+@media screen and (max-width: 424px){
+.wrap-mobile-phone{
+	display: none;
+}
+.wrap-pen{
+	display: none;
+}
+.container-book {
+	padding-bottom: 140px;
+	background-size: contain;
+	width: 96%;
+}
+.video-logo{
+	padding: 60px 0;
+}
+.video-logo img{
+	width: 271px;
+	height: 58px;
+}
+.video-panel {
+	background-size: contain;
+	width: 350px;
+	height: 241px;
+}
+.video-panel-pict-bl,.video-panel-pict-br,.video-panel-pict-tr, .video-panel-pict-tl{
+	background-size: contain;
+	width: 39px;
+	height: 38px;
+}
+iframe{
+	height: 241px;
+	width: 100%;
+}
+.container{
+	padding-top: 50px;
+}
+.container-index-book{
+	background-size: contain;
+	width: 96%;
+}
+.index-book-head{
+	background-size: cover;
+	padding-bottom: 0;
+}
+.index-book-body{
+	background-size: contain;
+} 
+.index-book-bottom{
+	background-size: contain;
+}
+.registration-text-small{
+	background-size: contain;
+	width: 90%;
+	font-size: 1.4rem;
+}
+.registration-text{
+	background-size: contain;
+	width: 90%;
+	padding-top: 10px;
+}
+.registration-text-head{
+	background-size: cover;
+}
+.registration-text-body, .registration-text-bottom{
+	background-size: contain;
+}
+.comment{
+	background-size: cover;
+	width: 80%;
+	font-size: 1.4rem;
+	padding: 5px 10px;
+}
+.nav_right{
+	width: 100%;
+	margin-top: -100px;
+}
+.language_list {
+	width: 45%;
+	float: left;
+}
+.social{
+	width: 45%;
+	margin-top: 0;
+}
+.index-logo {
+	width: 55%;
+	padding-top: 5px;
+	padding-left: 0;
+}
+.index-logo img{
+	width: 215px;
+	height: 58px;
+}
+.top{
+	display: none;
+}
+.comment-pict-tl{
+	background-size: contain;
+	width: 40px;
+	top: -15px;
+	left: -13px;
+}
+.comment-pict-tr{
+	background-size: contain;
+	width: 40px;
+	top: -15px;
+	right: -10px;
+}
+.spring{
+	display: none;
+}
+.recall {
+	margin-top: -20px;
+}
+.menu{
+	display: block;
+	float: right;
+	width: 40%;
+}
+.registration{
+	width: 90%;
+}
+}
+
+
+
+@media screen and (min-width: 321px) and (max-width:423px){
+.container-book{
+	padding-bottom: 105px;
+}
+.video-logo img{
+	width: 200px;
+	height: 43px;
+}
+.video-logo{
+	padding: 40px 0;
+}
+iframe{
+	height: 165px;
+	width: 100%;
+}
+.video-panel-pict-bl,.video-panel-pict-br,.video-panel-pict-tr, .video-panel-pict-tl{
+	width: 29px;
+	height: 28px;
+}
+.video-panel {
+	width: 240px;
+	height: 165px;
+}
+.comment{
+	width: 90%;
+	font-size: 1.3rem;
+	padding: 2px 5px;
+}
+.registration-text-body p, .statistics,.enter a {
+	font-size: 1.4rem;
+}
+.nav_right{
+	padding-right: 0;
+}
+.social{
+	width: 55%;
+}
+.language_list{
+	width: 35%;
+}
+.registration-button {
+	margin: 0 10px;
+}
+.registration-social{
+	float: left;
+	width: 40%;
+	margin: 0;
+}
+.registration-social li{
+	margin-right: 3%;
+}
+.registration-text{
+	padding-top: 0;
+}
+.registration-text-head {
+	height: 8px;
+}
+.statistics{
+	background-size: contain;
+	width: 90%;
+}
+.statistics p{
+	padding: 10px 15px;
+}
+ .statistics-text-body{
+	background-size: contain;
+}
+.statistics-text-head{
+	height: 13px;
+	background-size: cover;
+}
+.statistics-text-bottom{
+	height: 15px;
+	background-size: cover;
+}
+.recall {
+	margin-top: -20px;
+}
+.index-logo{
+	width: 50%;
+}
+.index-logo img{
+	height: 40px;
+	width: 148px;
+}
+.menu{
+	width: 50%;
+}
+.menu h3 a {
+	background-size: contain;
+	width: 79px;
+	height: 31px;
+	font-size: 1.3rem;
+	line-height: 30px;
+}
+.registration{
+	width: 95%;
+}
+}
+
+
+
+@media screen and (max-width: 320px){
+.container-book{
+	padding-bottom: 105px;
+}
+.video-logo img{
+	width: 200px;
+	height: 43px;
+}
+.video-logo{
+	padding: 40px 0;
+}
+iframe{
+	height: 165px;
+	width: 100%;
+}
+.video-panel-pict-bl,.video-panel-pict-br,.video-panel-pict-tr, .video-panel-pict-tl{
+	width: 29px;
+	height: 28px;
+}
+.video-panel {
+	width: 240px;
+	height: 165px;
+}
+.comment{
+	width: 90%;
+	font-size: 1.3rem;
+	padding: 2px 5px;
+}
+.registration-text-body p, .statistics,.enter a {
+	font-size: 1.4rem;
+}
+.nav_right{
+	padding-right: 0;
+}
+.social{
+	width: 55%;
+}
+.language_list{
+	width: 35%;
+}
+.registration-button {
+	margin: 0 10px;
+}
+.registration-social{
+	float: left;
+	width: 40%;
+	text-align: left;
+	margin: 0;
+}
+.registration-social li{
+	margin-right: 3%;
+}
+.registration-text{
+	padding-top: 0;
+}
+.registration-text-head {
+	height: 8px;
+}
+.statistics{
+	background-size: contain;
+	width: 90%;
+}
+.statistics p{
+	padding: 10px 15px;
+}
+.statistics-text-head, .statistics-text-body ,.statistics-text-bottom{
+	background-size: contain;
+}
+.statistics-text-head{
+	height: 13px;
+}
+.statistics-text-bottom{
+	height: 15px;
+}
+.recall {
+	margin-top: -20px;
+}
+.container{
+	margin: 0 auto;
+	background: url('images/shenol_index/bg_iphone_parker_small.png') no-repeat  center bottom;
+}
+.index-logo{
+	width: 50%;
+}
+.index-logo img{
+	height: 40px;
+	width: 148px;
+}
+.menu{
+	width: 50%;
+}
+.menu h3 a {
+	background-size: contain;
+	width: 79px;
+	height: 31px;
+	font-size: 1.3rem;
+	line-height: 30px;
+}
+.registration{
+	width: 100%;
+}
+}
+
+
+/*Shenol-Choose message.html*/
+
+.title-virtual-message{
+  float: right;
+  width: 549px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 3.12rem;
+  color: #1f1f1f;
+  border-bottom: 1px solid #aeaeae;
+  border-top: 1px solid #aeaeae;
+  margin-top: 40px;
+  margin-right: 36px;
+  line-height: 45px;
+   padding: 0;
+}
+
+.message-text{
+	background-color: #fff;
+	margin: 0 70px 20px 10px;
+	padding: 0;
+	font-family: 'roboto',serif;
+  font-size: 1.64rem;
+
+	border:1px solid #C3C3C3;
+	border-radius: 2%;
+
+}
+.message-text p{
+	padding:10px;
+	margin: 0;
+	text-align: left;
+
+	border-bottom: 1px solid #A9A9A9;
+
+}
+.message-text p:nth-child(2){
+	background: #D6D6D6;
+}
+.message-text p:last-child{border-bottom: none;}
+
+.btn{
+	margin: 0 auto;
+	display: block;
+	
+	
+}
+.btn-cancell{
+   background: url('images/shenol_learning_material/bg_btn_cansell.png') no-repeat;
+   width: 144px;
+   text-align: center;
+   float: left;
+   margin-left:40px; 
+   
+}
+.btn a{
+	font-family: 'Lobster', cursive;
+    font-size: 1.9rem;
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-selection{
+background: url('images/shenol_learning_material/bg_btn_selection.png') no-repeat;
+   width: 257px;
+   height: 66px;
+   text-align: center;
+   float: left;
+}
+
+
+/*Shenol-Contacts (detailed).html*/
+.title-virtual-contacts {
+  float: right;
+  width: 549px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 2.88rem;
+  color: #1f1f1f;
+  border-bottom: 1px solid #aeaeae;
+  border-top: 1px solid #aeaeae;
+  margin-top: 40px;
+  margin-right: 36px;
+  line-height: 45px;
+
+}
+.main-window{
+  margin: 0 auto;
+  padding: 0;
+  
+}
+.contacts-table{
+	padding: 0;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  width: 69%;
+  background: #fff;
+
+  border: 2px solid #DCDCDC;
+   border-spacing:0;
+  border-radius: 5px;
+
+}
+.contacts-table th{
+	padding:10px 15px;
+	
+	font-family: 'Roboto',sans-serif;
+	font-size: 2rem;
+}
+.foto-icon{
+	margin: 0;
+
+}
+.contacts-table td{
+	 border: 1px solid #DCDCDC;
+padding-top: 20px;
+padding-left: 15px;
+vertical-align: center;
+font-size: 1.6rem;
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+}
+
+
+.switch_prev{
+	float: left;
+}
+.switch_next{
+	float: right;
+}
+.column1{
+	width: 35%;
+	padding-right:2px; 
+}
+.column2{
+padding-right:10px;	
+}
+
+.main-message{
+	width: 68%;
+	height: 190px;
+	margin-left: 50px;
+	border-radius: 5px;	
+	border: 2px solid #DCDCDC;
+	  font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.8rem;
+	text-align: center;
+	resize: none;
+}
+.btn-selection-message {
+  background: url('images/shenol_learning_material/bg_btn_selection.png') no-repeat;
+  width: 257px;
+  height: 66px;
+  text-align: center;
+
+  
+  margin-right: 35%;
+ 
+}
+
+.learning-button-message {
+	width: 177px;
+	margin-right:42%; 
+  background: url('images/shenol_learning_material/send-button.png') no-repeat;
+  text-align: center;
+  padding: 0;
+
+}
+.btn-cancell-message{
+	margin-right:45%; 
+	 background: url('images/shenol_learning_material/bg_btn_cansell.png') no-repeat;
+   width: 144px;
+   text-align: center;
+}
+.archive-button-message{
+	width: 116px;
+	height: 66px;
+	background: url('images/shenol_learning_material/btn-archive.png') no-repeat;
+	text-align: center;
+	margin-right:48%;
+}
+
+/*Shenol-Contacts-multiple.html*/
+.title-virtual-message {
+  float: right;
+  width: 549px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: #1f1f1f;
+  border-bottom: 1px solid #aeaeae;
+  border-top: 1px solid #aeaeae;
+  margin-top: 40px;
+  margin-right: 36px;
+  line-height: 45px;
+
+}
+.main-message-mail{
+	width: 58%;
+	height: 355px;
+	margin-left: 80px;
+	margin-bottom: 30px;
+	border-radius: 5px;	
+	border: 2px solid #DCDCDC;
+	  font-family: MyriadPro-Regular, sans-serif;
+  font-size: 1.8rem;
+	text-align: center;
+	resize: none;
+}
+.btn-main-message{
+	width: 380px;
+	margin: 0 auto;
+	padding: 0;
+	
+
+}
+.btn-cancell-left {
+	
+	float: left;
+	width: 148px;
+	background: url('images/shenol_learning_material/bg_btn_cansell.png') no-repeat;
+   
+   text-align: center;
+}
+.btn-library-right{
+	
+	margin: 0;
+	float: left;
+	width: 172px;
+	background: url('images/shenol_learning_material/btn-llibrery.png') no-repeat;
+  
+   text-align: center;
+}
+
+/*Shenol-Message archive.html*/
+.date-time{
+	font-family: MyriadPro-Regular, cursive;
+	font-size: 18px;
+	border-bottom: 1px solid black;
+}
+
+
+/*Shenol-team*/
+.title-virtual-team {
+  float: right;
+  width: 549px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 1.8rem;
+  color: #1f1f1f;
+  border-bottom: 1px solid #aeaeae;
+  border-top: 1px solid #aeaeae;
+  margin-top: 40px;
+  margin-right: 36px;
+  line-height: 25px;
+
+}
+
+
+/*Shenol-My team-table.html*/
+
+.title-virtual-team-table {
+  float: right;
+  width: 549px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 2.8rem;
+  color: #1f1f1f;
+  border-bottom: 1px solid #aeaeae;
+  border-top: 1px solid #aeaeae;
+  margin-top: 40px;
+  margin-right: 36px;
+  margin-bottom: 25px;
+  line-height: 45px;
+
+}
+
+ .search-mail{margin: 0 auto; padding: 0;}
+#search-mail{
+	width: 220px;
+	height: 45px;
+	
+	background:none;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #aeaeae;
+	margin-left: 105px;
+	margin-right: 10px;
+
+}
+.button-team-table{background: url('images/shenol_team/bg_input_submit.png')no-repeat;
+font-size: 1.91rem;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  border: none;
+  text-align: center;
+ line-height: 25px;
+  width: 106px;
+  height: 55px;
+}
+  .btn-choose-all{
+  	background: url('images/shenol_learning_material/btn-choose-all.png') no-repeat;
+ font-size: 2.25rem;
+  width: 184px;
+  height: 43px;
+  text-align: center;
+  box-shadow:inset 0 0 0 3px rgba(40, 40, 40, 0.4);
+  border-radius: 5px;
+ 	float: left;
+ 	
+ 	 
+ 	margin-bottom: 10px;
+ 	margin-left: 35px;
+ 	margin-right: 10px;
+  }
+  .btn-choose-all a{ line-height: 45px;}
+  .btn-cancell-selection{
+	background: url('images/shenol_learning_material/btn-cansel-selection.png') no-repeat;
+ font-size: 2.25rem;
+ padding: 0;
+box-shadow:inset 0 0 0 3px rgba(40, 40, 40, 0.4);
+  width: 210px;
+  height: 43px;
+  text-align: center;
+  float: left;
+  border-radius: 5px;
+  }
+  .btn-cancell-selection a{line-height: 45px;}
+  .contacts-table-team{
+  	margin: 0 auto;
+  	margin-right: 25%;
+  	margin-left: -15px;
+  	margin-bottom: 3%;
+  	width: 95%;
+  	border: 1px solid #aeaeae;
+  	border-spacing:0;
+  	table-layout:fixed;
+  border-radius: 10px;
+  background: #fff;
+
+  }
+  .contacts-table-team th{border-bottom: 1px solid #aeaeae; border-right: 1px solid #aeaeae; font-size: 1.5rem;font-family: 'Roboto-Regular',sans-serif;padding-left:2%;text-align: left; padding-top: 5%;padding-bottom: 5%;}
+  .contacts-table-team th:last-child{border-right: none;}
+  .contacts-table-team td{table-layout:fixed;text-align: center; padding:1% 1.5%;  border-right: 1px solid #aeaeae;padding-left:2%;text-align: left;font-size: 1.2rem; font-family: 'Roboto-Regular',sans-serif;  word-wrap: break-word;}
+  .contacts-table-team td:last-child{border-right: none;}
+  
+  #one{position: relative;z-index: 100;border: 1px solid #aeaeae;border-radius: 10px; }
+  #two{position: relative;z-index: 50;top:-30px;left: 30px;}
+  #one:active{z-index: 10;}
+  #two:active{z-index: 100;}
+  .contacts-table-team tr:hover{background:#999999;}
+  .contacts-table-team tr:last-child:hover{background:none;}
+  .contacts-table-team tr:first-child:hover{background:none;}
+  .table-column1 a{display: block;width: 55px;height: 56px; }
+  .table-column1{max-width: 15%;}
+  .table-column2{width: 15%;}
+  .table-column3{width: 22.5%;}
+  .table-column4{width: 25%;}
+  .table-column5{width: 22.5%;border: none;}
+
+  .img-column1{border: 1px solid #aeaeae;border-radius: 10px; }
+  
+ .main-message-team{
+	width: 93%;
+	height: 190px;
+	margin-left: -15px;
+	margin-bottom: 1
+	0px;
+	border-radius: 5px;	
+	border: 2px solid #DCDCDC;
+	  font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.8rem;
+	text-align: center;
+	resize: none;
+} 
+
+
+/*Shenol-Contacts.html*/
+.shenol-grup-btn {width: 90%; margin-top: -25px;margin-bottom: 20px;}
+.btn-add-contacts{
+	
+	margin-bottom:10px;
+	margin:0; 
+	
+	background: url('images/Shenol-Contacts/add_contacts.png') no-repeat ;
+	width:233px;
+	height: 43px;
+	font-family: 'Lobster', cursive;
+    font-size: 2.25rem;
+   
+ 
+border: 4px solid #666666;
+  border-radius: 10px;
+  text-align: center;
+
+  float: left;
+}
+  .btn-add-contacts a{
+  	font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+  .btn-add-multiple{
+
+	margin-bottom:10px;
+	margin-left: 10px;
+
+ 
+	background: url('images/Shenol-Contacts/add_contacts.png') no-repeat ;
+	width:233px;
+	height: 43px;
+	font-family: 'Lobster', cursive;
+    font-size: 2.25rem;
+   
+ 
+border: 4px solid #666666;
+  border-radius: 10px;
+  text-align: center;
+
+  float: left;
+}
+  .btn-add-multiple a{
+  	font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+.shenol-btn-choose-all {
+
+	margin: 0;
+	margin-left: 50px;
+	margin-right: 10px;
+	background: url('images/Shenol-Contacts/select_all.png') no-repeat ;
+	width: 183px;
+	height: 43px;
+ 	text-align: center;
+  float: left;
+  border: 4px solid #666666;
+  border-radius: 10px;
+
+}
+.shenol-btn-choose-all a{
+	font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+.shenol-cancell-selection{
+	background: url('images/shenol_learning_material/btn-cansel-selection.png') no-repeat;
+ font-size: 2.25rem;
+ padding: 0;
+box-shadow:inset 0 0 0 3px rgba(40, 40, 40, 0.4);
+  width: 210px;
+  height: 43px;
+  text-align: center;
+  float: left;
+  border: 4px solid #666666;
+  border-radius: 10px;
+  }
+.buttons a{
+
+font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+    text-decoration: none;
+
+}
+  .shenol-contacts-table-team{
+  	margin: 0 auto;
+  	margin-right: 25%;
+  	margin-left: -15px;
+  	margin-bottom: 3%;
+  	width: 95%;
+  	border: 1px solid #aeaeae;
+  	border-spacing:0;
+  	table-layout:fixed;
+	  border-radius: 10px;
+	  -moz-border-radius: 10px;
+	-webkit-border-radius: 10px; 
+  background: #fff;
+
+  }
+   .shenol-contacts-table-team th{border-bottom: 1px solid #aeaeae; border-right: 1px solid #aeaeae; font-size: 1.5rem;font-family: 'Roboto-Regular',sans-serif;padding-left:2%;vertical-align: bottom;text-align: left; padding-top: 5%;padding-bottom: 2%;}
+  .shenol-contacts-table-team th:last-child{border-right: none;}
+  .shenol-contacts-table-team td{border-bottom: 1px solid #aeaeae;  table-layout:fixed;text-align: center; padding:1% 1.5%;  border-right: 1px solid #aeaeae;padding-left:2%;text-align: left;font-size: 1.2rem; font-family: 'Roboto-Regular',sans-serif;  word-wrap: break-word;}
+  .shenol-contacts-table-team td:last-child{border-right: none;}
+  .shenol-contacts-table-team td.latest{border-bottom: none;}
+  
+  #one{position: relative;z-index: 100;border: 1px solid #aeaeae;border-radius: 10px;-moz-border-radius: 10px;
+-webkit-border-radius: 10px; }
+  #two{position: relative;z-index: 50;top:-30px;left: 30px;}
+  #one:active{z-index: 10;}
+  #two:active{z-index: 100;}
+  .shenol-contacts-table-team tr:hover{background:#b1b1b1; box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+  .shenol-contacts-table-team tr:last-child:hover{background:none;}
+  .shenol-contacts-table-team tr:first-child:hover{background:none;}
+
+  .shenol-table-column1 a{display: block;width: 55px;height: 56px; }
+  .shenol-table-column1{max-width: 15%;}
+  .shenol-table-column2{width: 22%;}
+  .shenol-table-column3{width: 24%;}
+  .shenol-table-column4{width: 24%;}
+  .shenol-table-column5{width: 15%;}
+
+  
+
+  .img-column1{border: 1px solid #aeaeae;border-radius: 10px;-moz-border-radius: 10px;
+-webkit-border-radius: 10px; }
+  
+ .main-message-team{
+	width: 93%;
+	height: 190px;
+	margin-left: -15px;
+	margin-bottom: 1
+	0px;
+	border-radius: 5px;	
+	border: 2px solid #DCDCDC;
+	  font-family: RobotoCondensed-Regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.8rem;
+	text-align: center;
+	resize: none;
+} 
+
+#in-efir{
+	margin: 0 auto;
+ width:10px;
+ height:10px;
+ display:block;
+ border-radius:5px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ -khtml-border-radius:5px;
+
+ line-height:100px;
+ background:#009900;
+ }
+ #not-efir{
+	margin: 0 auto;
+ width:10px;
+ height:10px;
+ display:block;
+ border-radius:5px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ -khtml-border-radius:5px;
+
+ line-height:100px;
+ background:#cc3333;
+ }
